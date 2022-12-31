@@ -2,9 +2,9 @@ import "../styles/App.css";
 
 function App() {
   return (
-    <div className='bg-image'>
+    <div className='main-container'>
       <div className='main-card'>
-        <h1 className='title'>Hello World</h1>
+        <h1 className='main-title'>Matt Chisholm</h1>
       </div>
     </div>
   );
