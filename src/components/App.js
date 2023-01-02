@@ -14,6 +14,10 @@ function App() {
     <div className='main-container'>
       <div className='main-card'>
         <Nav setPage={setPage} />
+        {page === "home" && <Home />}
+        {page === "projects" && <Projects />}
+        {page === "about" && <About />}
+        {page === "contact" && <Contact />}
       </div>
     </div>
   );
