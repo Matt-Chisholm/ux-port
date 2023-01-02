@@ -1,21 +1,21 @@
 import React, { useContext } from "react";
 import "../styles/Nav.css";
-import { Context } from "../context/showContext";
 
-export default function Nav() {
-  const { home, about, projects, contact, show } = useContext(Context);
-  console.log(show);
-
+export default function Nav({ setPage }) {
   return (
     <div className='nav-container'>
-      <button onClick={() => home()} className='nav-item'>
+      <button className='nav-button' onClick={() => setPage("home")}>
         Home
       </button>
-      <button onClick={() => about()} className='nav-item'>
+      <button className='nav-button' onClick={() => setPage("projects")}>
+        Projects
+      </button>
+      <button className='nav-button' onClick={() => setPage("about")}>
         About
       </button>
-      <h3 className='nav-item'>Projects</h3>
-      <h3 className='nav-item'>Contact</h3>
+      <button className='nav-button' onClick={() => setPage("contact")}>
+        Contact
+      </button>
     </div>
   );
 }
