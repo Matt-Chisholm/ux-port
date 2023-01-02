@@ -8,16 +8,14 @@ export default function Nav() {
 
   return (
     <div className='nav-container'>
-      <div className='nav-card'>
-        <div onClick={() => home()}>
-          <h3 className='nav-item'>Home</h3>
-        </div>
-        <div onClick={() => about()}>
-          <h3 className='nav-item'>About</h3>
-        </div>
-        <h3 className='nav-item'>Projects</h3>
-        <h3 className='nav-item'>Contact</h3>
-      </div>
+      <button onClick={() => home()} className='nav-item'>
+        Home
+      </button>
+      <button onClick={() => about()} className='nav-item'>
+        About
+      </button>
+      <h3 className='nav-item'>Projects</h3>
+      <h3 className='nav-item'>Contact</h3>
     </div>
   );
 }

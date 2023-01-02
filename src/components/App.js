@@ -14,10 +14,10 @@ function App() {
     <div className='main-container'>
       <div className='main-card'>
         <Nav />
-        {/* {show === "home" && <Home />}
+        {show === "home" && <Home />}
         {show === "about" && <About />}
         {show === "projects" && <Projects />}
-        {show === "contact" && <Contact />} */}
+        {show === "contact" && <Contact />}
       </div>
     </div>
   );
