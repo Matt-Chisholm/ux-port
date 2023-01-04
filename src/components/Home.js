@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 
-export default function Home() {
+export default function Home({ page, setPage }) {
   const words = [
     "a web developer",
     "a front-end developer",
@@ -53,6 +53,17 @@ export default function Home() {
             I'm <span className='job'>{word}</span>.
           </h2>
         </div>
+      </div>
+      <div className='subheader'>
+        <h3 className='subheader-text'>
+          I have a passion for coding creative, clean and efficient web apps.
+        </h3>
+        <h4 className='questions'>
+          Questions?{" "}
+          <span className='contact' onClick={() => setPage("contact")}>
+            Contact Me
+          </span>
+        </h4>
       </div>
     </div>
   );

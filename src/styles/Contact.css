@@ -20,7 +20,8 @@
 
 .form-label {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 500;
+    color: #B3EFB2;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -40,4 +41,14 @@
     font-size: 1.5em;
     font-weight: 600;
     font-family: 'Nunito', sans-serif;
+}
+
+.color-div {
+    background-color: #b3efb214;
+    position: absolute;
+    border-radius: 20em;
+    width: 60%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 60px;
 }

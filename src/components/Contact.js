@@ -23,7 +23,7 @@ export default function Contact() {
       .send(service_id, template_id, templateParams, public_key)
       .then((result) => {
         if (result.status === 200) {
-          setFormStatus("Send");
+          setFormStatus("Sent!");
           e.target.reset();
         } else {
           setError("Something went wrong. Please try again later.");
@@ -36,6 +36,7 @@ export default function Contact() {
     <div className='container mt-5'>
       <h1 className='mb-4'>Send me an Email</h1>
       <form onSubmit={onSubmit}>
+        <div className='color-div'></div>
         <div className='mb-3'>
           <label className='form-label' htmlFor='name'>
             Name

@@ -58,6 +58,46 @@
     border-radius: 30em;
     width: 60%;
     height: 60%;
+    position: relative;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 300px;
+    padding-right: 20em;
+}
+
+.subheader {
+    margin-top: 6em;
+    background-color: #b3efb21c;
+    border-radius: 30em;
+    width: 60%;
+    height: 100px;
+    margin-left: 600px;
+    padding-left: 20em;
+    padding-bottom: 6em;
+}
+
+.subheader-text {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #98C1D9;
+}
+
+.questions {
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #98C1D9;
+}
+
+.contact {
+    font-size: 1.6em;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: #B3EFB2;
+    margin-left: 1.5em;
+}
+
+.contact:hover {
+    color: #140D4F;
+    cursor: pointer;
 }
