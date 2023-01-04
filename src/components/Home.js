@@ -3,10 +3,11 @@ import "../styles/Home.css";
 
 export default function Home() {
   const words = [
-    "web developer",
-    "front-end developer",
-    "software engineer",
-    "nerd",
+    "a web developer",
+    "a front-end developer",
+    "a software engineer",
+    "always learning",
+    "a nerd",
   ];
   const [word, setWord] = React.useState(words[0]);
   const [index, setIndex] = React.useState(0);
@@ -26,7 +27,7 @@ export default function Home() {
           Hi, I'm <span className='name'>Matt</span>.
         </h1>
         <h2 className='scroller'>
-          I'm a <span className='job'>{word}</span>.
+          I'm <span className='job'>{word}</span>.
         </h2>
       </div>
     </div>

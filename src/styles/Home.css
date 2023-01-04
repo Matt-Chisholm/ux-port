@@ -17,3 +17,12 @@
     font-family: 'Nunito', sans-serif;
     color: #98C1D9;
 }
+
+.scroller {
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    font-family: 'Nunito', sans-serif;
+    color: #B3EFB2;
+}
