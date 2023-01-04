@@ -1,0 +1,19 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0D5C63;
+    
+}
+
+.name-h1 {
+    font-size: 6em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-right: 500px;
+    font-family: 'Nunito', sans-serif;
+    color: #98C1D9;
+}

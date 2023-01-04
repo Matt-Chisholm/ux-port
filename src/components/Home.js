@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Home.css";
 
 export default function Home() {
@@ -21,11 +21,11 @@ export default function Home() {
 
   return (
     <div className='home-container'>
-      <div className='home-text'>
-        <h1>
+      <div className='text-container'>
+        <h1 className='name-h1'>
           Hi, I'm <span className='name'>Matt</span>.
         </h1>
-        <h2>
+        <h2 className='scroller'>
           I'm a <span className='job'>{word}</span>.
         </h2>
       </div>
