@@ -1,61 +1,25 @@
-.nav-button {
-    background-color: rgb(14, 64, 52);
-    color: #ffffff;
-    padding: 2px;
-    margin: 5px;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    display: inline-block;
-    text-align: center;
-    width: 100px;
-    height: 60px;
-    line-height: 50px;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-
-.nav-button:hover {
-    background-color: rgb(14, 64, 52);
-    color: #ffffff;
-    padding: 2px;
-    margin: 5px;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    display: inline-block;
-    text-align: center;
-    width: 100px;
-    height: 60px;
-    line-height: 50px;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.1);
-}
-
 .nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 60%;
+    margin-left: 30%;
     background-color: rgb(14, 64, 52);
   }
 
-/* CSS */
 .button-48 {
   appearance: none;
-    background-color: rgb(14, 64, 52);
+  background-color: rgb(14, 64, 52);
   border-width: 0;
+  border-radius: 40px;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: Clarkson,Helvetica,sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
   letter-spacing: 0;
   line-height: 1em;
   margin: 0;
