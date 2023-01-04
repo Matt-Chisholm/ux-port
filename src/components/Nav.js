@@ -4,6 +4,7 @@ import "../styles/Nav.css";
 export default function Nav({ setPage }) {
   return (
     <div className='nav-container'>
+      <div className='inner-container'></div>
       <button className='button-48' onClick={() => setPage("home")}>
         <span className='text'>Home</span>
       </button>
