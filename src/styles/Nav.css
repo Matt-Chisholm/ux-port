@@ -44,13 +44,10 @@
     background-color: rgb(14, 64, 52);
   }
 
-  <!-- HTML !-->
-<button class="button-48" role="button"><span class="text">Button 48</span></button>
-
 /* CSS */
 .button-48 {
   appearance: none;
-  background-color: #FFFFFF;
+    background-color: rgb(14, 64, 52);
   border-width: 0;
   box-sizing: border-box;
   color: #000000;
@@ -81,7 +78,7 @@
 .button-48:before {
   animation: opacityFallbackOut .5s step-end forwards;
   backface-visibility: hidden;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
   content: "";
   height: 100%;
@@ -99,7 +96,8 @@
 }
 
 .button-48:after {
-  background-color: #FFFFFF;
+  background-color: #161515;
+  color: whitesmoke;
 }
 
 .button-48 span {
