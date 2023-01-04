@@ -25,7 +25,7 @@ export default function Home() {
       <div className='text-container'>
         <div className='name-container'>
           <h1 className='name-h1'>
-            Hi, I'm <span className='name'>Matt</span>.
+            Hi, I'm <span className='name'>Matt.</span>
           </h1>
           <img
             className='logo'
