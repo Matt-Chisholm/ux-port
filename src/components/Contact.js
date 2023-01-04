@@ -7,6 +7,7 @@ export default function Contact() {
   const template_id = process.env.REACT_APP_TEMPLATE_ID;
   const public_key = "zcEi4mqmY9Y4M7iK9";
   const [formStatus, setFormStatus] = React.useState("Send");
+  const [error, setError] = React.useState(null);
   const onSubmit = (e) => {
     e.preventDefault();
     setFormStatus("Sending...");
@@ -19,10 +20,15 @@ export default function Contact() {
       message,
     };
     emailjs
-      .send(service_id, template_id, { from_name, email, message }, public_key)
+      .send(service_id, template_id, templateParams, public_key)
       .then((result) => {
-        console.log(result.text);
-        setFormStatus("Send");
+        if (result.status === 200) {
+          setFormStatus("Send");
+          e.target.reset();
+        } else {
+          setError("Something went wrong. Please try again later.");
+          setFormStatus("Send");
+        }
       });
   };
 
@@ -51,6 +57,7 @@ export default function Contact() {
         <button className='form-btn' type='submit'>
           {formStatus}
         </button>
+        {error && <p className='error'>{error}</p>}
       </form>
     </div>
   );
