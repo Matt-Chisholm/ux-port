@@ -1,19 +1,31 @@
 import React from "react";
 import "../styles/Contact.css";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
+  const service_id = process.env.REACT_APP_SERVICE_ID;
+  const template_id = process.env.REACT_APP_TEMPLATE_ID;
+  const public_key = "zcEi4mqmY9Y4M7iK9";
   const [formStatus, setFormStatus] = React.useState("Send");
   const onSubmit = (e) => {
     e.preventDefault();
-    setFormStatus("Submitting...");
-    const { name, email, message } = e.target.elements;
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
+    setFormStatus("Sending...");
+    const from_name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+    const templateParams = {
+      from_name,
+      email,
+      message,
     };
-    console.log(conFom);
+    emailjs
+      .send(service_id, template_id, { from_name, email, message }, public_key)
+      .then((result) => {
+        console.log(result.text);
+        setFormStatus("Send");
+      });
   };
+
   return (
     <div className='container mt-5'>
       <h1 className='mb-4'>Send me an Email</h1>
