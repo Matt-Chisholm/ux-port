@@ -1,3 +1,17 @@
+.home-container {
+    animation: fadeIn 3.5s;
+  -webkit-animation: fadeIn 3.5s;
+  -moz-animation: fadeIn 3.5s;
+  -o-animation: fadeIn 3.5s;
+  -ms-animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 .text-container {
     display: flex;
     flex-direction: column;
