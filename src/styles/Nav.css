@@ -14,7 +14,7 @@
   border-width: 0;
   border-radius: 40px;
   box-sizing: border-box;
-  color: #000000;
+  color: #B49082;
   cursor: pointer;
   display: inline-block;
   font-family: 'Nunito', sans-serif;
@@ -43,6 +43,7 @@
   animation: opacityFallbackOut .5s step-end forwards;
   backface-visibility: hidden;
   background-color: #ebebeb;
+  color: #161515;
   clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
   content: "";
   height: 100%;
