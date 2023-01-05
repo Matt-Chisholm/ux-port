@@ -1,3 +1,7 @@
+.about-card {
+    margin-top: 42vh;
+}
+
 .about-container {
     display: flex;
     flex-direction: column;
@@ -80,4 +84,40 @@
     position: relative;
     padding-left: 400px;
     margin-right: 200px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 50%;
+    height: 30%;
+    animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  background-color: #98cad929;
+  border-radius: 10em;
+    padding: 5em 6em;
+}
+
+.skills-h1 {
+    font-size: 4em;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-right: 400px;
+    padding-left: 200px;
+    font-family: 'Nunito', sans-serif;
+    color: #98C1D9;
+}
+
+.skills-p {
+    font-size: 1.8em;
+    line-height: 2.5em;
+    font-weight: 530;
+    margin-right: 200px;
+    font-family: 'Nunito', sans-serif;
+    color: #B3EFB2;
 }

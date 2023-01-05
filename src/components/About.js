@@ -27,19 +27,32 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className='btn-container'>
-          <a
-            href='https://github.com/Matt-Chisholm'
-            target='_blank'
-            rel='noreferrer'>
-            <button className='github-btn'>GitHub</button>
-          </a>
-          <a
-            href='https://www.linkedin.com/in/matt-chisholm10/'
-            target='_blank'
-            rel='noreferrer'>
-            <button className='github-btn'>LinkedIn</button>
-          </a>
+        <div className='skills-container'>
+          <h1 className='skills-h1'>Skills</h1>
+          <div className='skills'>
+            <p className='skills-p'>
+              React, React Native, HTML/CSS, Node, Express{" "}
+            </p>
+            <p className='skills-p'>
+              PostgreSQL, MongoDB, JavaScript, TypeScript{" "}
+            </p>
+            <p className='skills-p'>Git, GitHub, Heroku, Netlify </p>
+            <p className='skills-p'>Figma, Adobe XD, Adobe Photoshop </p>
+          </div>
+          <div className='btn-container'>
+            <a
+              href='https://github.com/Matt-Chisholm'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='github-btn'>GitHub</button>
+            </a>
+            <a
+              href='https://www.linkedin.com/in/matt-chisholm10/'
+              target='_blank'
+              rel='noreferrer'>
+              <button className='github-btn'>LinkedIn</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
