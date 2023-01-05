@@ -82,6 +82,7 @@
     margin-top: 6em;
     background-color: #b3efb21c;
     border-radius: 30em;
+    position: fixed;
     width: 40%;
     height: 100px;
     margin-left: 600px;

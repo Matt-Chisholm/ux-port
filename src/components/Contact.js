@@ -34,9 +34,9 @@ export default function Contact() {
 
   return (
     <div className='container mt-5'>
+      {/* <div className='color-div'></div> */}
       <h1 className='mb-4'>Send me an Email</h1>
       <form onSubmit={onSubmit}>
-        <div className='color-div'></div>
         <div className='mb-3'>
           <label className='form-label' htmlFor='name'>
             Name
