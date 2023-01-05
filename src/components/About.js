@@ -11,17 +11,16 @@ export default function About() {
             <p className='about-p'>
               I am a full-stack web developer with a current focus on front-end.
               <br />
-              I am currently working mostly in React, React Native and learning
+              Currently i'm working mostly in React, React Native and learning
               the art of Typescript.
               <br />
-              I am as of now involved in several open-source and volunteer
+              As of now, i'm involved in several open-source and volunteer
               projects, but am always looking for more.
               <br />
-              I am a graduate of Lighthouse Labs Web Development Bootcamp, and
-              am constantly upskilling.
+              I am a recent graduate of Lighthouse Labs Web Development
+              Bootcamp, and am constantly upskilling.
               <br />
-              Although I am currently focused on honing my front-end skills, I
-              also enjoy getting involved in design and back-end development..
+              Additionally enjoy working on design and back-end/database work.
               <br />
               I am a lifelong learner, and am always looking for new challenges.
               <br />

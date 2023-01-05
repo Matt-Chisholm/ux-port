@@ -34,32 +34,33 @@ export default function Contact() {
 
   return (
     <div className='container mt-5'>
-      {/* <div className='color-div'></div> */}
-      <h1 className='mb-4'>Send me an Email</h1>
-      <form onSubmit={onSubmit}>
-        <div className='mb-3'>
-          <label className='form-label' htmlFor='name'>
-            Name
-          </label>
-          <input className='form-control' type='text' id='name' required />
-        </div>
-        <div className='mb-3'>
-          <label className='form-label' htmlFor='email'>
-            Email
-          </label>
-          <input className='form-control' type='email' id='email' required />
-        </div>
-        <div className='mb-3'>
-          <label className='form-label' htmlFor='message'>
-            Message
-          </label>
-          <textarea className='form-control' id='message' required />
-        </div>
-        <button className='form-btn' type='submit'>
-          {formStatus}
-        </button>
-        {error && <p className='error'>{error}</p>}
-      </form>
+      <div className='color-div'>
+        <h1 className='mb-4'>Send me an Email</h1>
+        <form onSubmit={onSubmit}>
+          <div className='mb-3'>
+            <label className='form-label' htmlFor='name'>
+              Name
+            </label>
+            <input className='form-control' type='text' id='name' required />
+          </div>
+          <div className='mb-3'>
+            <label className='form-label' htmlFor='email'>
+              Email
+            </label>
+            <input className='form-control' type='email' id='email' required />
+          </div>
+          <div className='mb-3'>
+            <label className='form-label' htmlFor='message'>
+              Message
+            </label>
+            <textarea className='form-control' id='message' required />
+          </div>
+          <button className='form-btn' type='submit'>
+            {formStatus}
+          </button>
+          {error && <p className='error'>{error}</p>}
+        </form>
+      </div>
     </div>
   );
 }

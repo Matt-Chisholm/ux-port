@@ -21,6 +21,7 @@
     padding: 0.5em 1em;
     margin: 0.5em 0;
     transition: all 0.3s ease-in-out;
+    opacity: 75%;
 }
 
 .form-btn:hover {
@@ -58,10 +59,13 @@
 
 .color-div {
     background-color: #b3efb214;
-    position: absolute;
+    position: relative;
     border-radius: 20em;
-    width: 60%;
+    width: 100%;
     height: 40%;
-    margin-top: 20px;
+    margin-top: 180px;
     margin-left: 60px;
+    margin-right: 200px;
+    padding-left: 200px;
+    padding-top: 100px;
 }

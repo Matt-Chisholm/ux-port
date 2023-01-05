@@ -58,6 +58,7 @@
     padding: 0.5em 1em;
     margin: 0em 0.5em;
     transition: all 0.3s ease-in-out;
+    opacity: 75%;
 }
 
 .github-btn:hover {
@@ -68,8 +69,7 @@
     font-family: 'Nunito', sans-serif;
     border-radius: 3em;
     padding: 0.5em 1em;
-    margin: 0.5em 0;
-    transition: all 0.3s ease-in-out;
+    margin: 0.5em 0.5em;
 }
 
 .color-bg {
