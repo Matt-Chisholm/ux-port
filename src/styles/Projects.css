@@ -84,6 +84,13 @@
     transition: all 0.3s ease-in-out;
 }
 
+.project-button:hover {
+  background-color: #98c1d9;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 .project-image {
   width: 150px;
   height: 300px;
