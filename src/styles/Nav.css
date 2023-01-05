@@ -5,12 +5,13 @@
     align-items: center;
     width: 60%;
     margin-left: 30%;
-    background-color: #0D5C63;
+    border-radius: 30em;
+    background-color: #0d5c6329;
   }
 
 .button-48 {
   appearance: none;
-  background-color: #0D5C63;
+  background-color: #0d5c631a;
   border-width: 0;
   border-radius: 40px;
   box-sizing: border-box;
@@ -19,7 +20,7 @@
   display: inline-block;
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 0;
   line-height: 1em;
   margin: 0;
@@ -42,7 +43,8 @@
 .button-48:before {
   animation: opacityFallbackOut .5s step-end forwards;
   backface-visibility: hidden;
-  background-color: #ebebeb;
+  background-color: #98C1D9;
+  border-radius: 15em;
   color: #161515;
   clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
   content: "";
