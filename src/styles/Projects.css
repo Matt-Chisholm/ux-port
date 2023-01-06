@@ -21,7 +21,7 @@
 }
 
 .header {
-  color: #98c1d9;
+  color: #c8e7f9;
     font-family: 'Nunito', sans-serif;
     font-size: 4.2em;
     font-weight: 800;
@@ -57,11 +57,12 @@
 }
 
 .project-title {
-  color: #B3EFB2;
+  color: #c8e7f9;
     font-family: 'Nunito', sans-serif;
     font-size: 2em;
     font-weight: 600;
     margin-bottom: 1em;
+    opacity: 100%;
 }
 
 .project-description {
