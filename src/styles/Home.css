@@ -116,3 +116,91 @@
     color: #140D4F;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .name-h1 {
+        font-size: 3em;
+        margin-top: 100px;  
+        margin-left: 250px;
+    }
+    
+    .name {
+        font-size: 1.2em;
+        margin-right: 100px;
+    }
+    
+    .scroller {
+        font-size: 3em;
+    }
+    
+    .carousel-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+    }
+    
+    .name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 80%;
+        margin-left: 30%;
+    }
+    
+    .text-container {
+        background-color: #b3efb214;
+        border-radius: 30em;
+        width: 80%;
+        height: 60%;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 100px;
+        padding-right: 20em;
+    }
+    
+    .subheader {
+        margin-top: 6em;
+        background-color: #b3efb21c;
+        border-radius: 30em;
+        position: fixed;
+        width: 60%;
+        height: 100px;
+        margin-left: 200px;
+        padding-left: 10em;
+        padding-bottom: 2em;
+    }
+    
+    .subheader-text {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: 'Nunito', sans-serif;
+        color: #c8e7f9;
+    }
+    
+    .questions {
+        font-size: 1em;
+        font-weight: 600;
+        font-family: 'Nunito', sans-serif;
+        color: #c8e7f9;
+    }
+    
+    .contact {
+        font-size: 1.2em;
+        font-weight: 700;
+        font-family: 'Nunito', sans-serif;
+        color: #B3EFB2;
+        margin-left: 1.5em;
+    }
+    
+    .contact:hover {
+        color: #140D4F;
+        cursor: pointer;
+    }
+}
