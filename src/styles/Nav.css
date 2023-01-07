@@ -71,3 +71,18 @@
   z-index: 1;
   position: relative;
 }
+
+@media (max-width: 1000px) {
+  .nav-container {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-48 {
+    width: 100%;
+    margin: 0;
+    padding: 1.5em 2.2em;
+  }
+}
