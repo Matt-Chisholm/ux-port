@@ -262,3 +262,39 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width: 480px) {
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0D5C63;
+  }
+
+  .name-h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-family: 'Nunito', sans-serif;
+    color: #c8e7f9;
+  }
+
+  .name {
+    font-size: 1em;
+    font-weight: 800;
+    margin-right: 100px;
+    font-family: 'Nunito', sans-serif;
+    color: #93d8ff;
+  }
+
+  .scroller {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    color: #B3EFB2;
+  }
+}
