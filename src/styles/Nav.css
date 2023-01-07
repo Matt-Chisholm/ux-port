@@ -3,9 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 40%;
     margin-left: 30%;
-    border-radius: 30em;
+    border-radius: 20em;
     background-color: #0d5c6310;
   }
 
@@ -13,20 +13,20 @@
   appearance: none;
   background-color: #0d5c6309;
   border-width: 0;
-  border-radius: 40px;
+  border-radius: 30px;
   box-sizing: border-box;
   color: #140D4F;
   cursor: pointer;
   display: inline-block;
   font-family: 'Nunito', sans-serif;
-  font-size: 38px;
+  font-size: 1.8em;
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1em;
   margin: 0;
   opacity: 1;
   outline: 0;
-  padding: 1.5em 2.2em;
+  padding: 1.2em 1.8em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -84,7 +84,7 @@
   .button-48 {
     width: 100%;
     margin: 0;
-    padding: 1.5em 2.2em;
-    font-size: 1.7em;
+    padding: 1.2em 1.8em;
+    font-size: 1.4em;
   }
 }

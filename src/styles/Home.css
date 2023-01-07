@@ -1,9 +1,9 @@
 .home-container {
-    animation: fadeIn 3.5s;
-  -webkit-animation: fadeIn 3.5s;
-  -moz-animation: fadeIn 3.5s;
-  -o-animation: fadeIn 3.5s;
-  -ms-animation: fadeIn 3.5s;
+  animation: fadeIn 2.625s;
+  -webkit-animation: fadeIn 2.625s;
+  -moz-animation: fadeIn 2.625s;
+  -o-animation: fadeIn 2.625s;
+  -ms-animation: fadeIn 2.625s;
 }
 
 @keyframes fadeIn {
@@ -11,40 +11,38 @@
   100% { opacity: 1; }
 }
 
-
 .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: #0D5C63;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #0D5C63;
 }
 
 .name-h1 {
-    font-size: 5em;
-    font-weight: 600;
-    margin-top: 100px;
-    margin-right: 200px;
-    font-family: 'Nunito', sans-serif;
-    color: #c8e7f9;
+  font-size: 3.75em;
+  font-weight: 600;
+  margin-top: 75px;
+  margin-right: 150px;
+  font-family: 'Nunito', sans-serif;
+  color: #c8e7f9;
 }
 
 .name {
-    font-size: 1.6em;
-    font-weight: 800;
-    margin-right: 200px;
-    font-family: 'Nunito', sans-serif;
-    color: #93d8ff;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-right: 150px;
+  font-family: 'Nunito', sans-serif;
+  color: #93d8ff;
 }
 
 .scroller {
-    font-size: 5em;
-    font-weight: 100;
-    font-family: 'Nunito', sans-serif;
-    color: #B3EFB2;
+  font-size: 2.25em;
+  font-weight: 100;
+  font-family: 'Nunito', sans-serif;
+  color: #B3EFB2;
 }
 
 .carousel-container {
@@ -120,85 +118,72 @@
 @media screen and (max-width: 768px) {
     .name-h1 {
         font-size: 3em;
-        margin-top: 100px;  
-        margin-left: 250px;
+        font-weight: 600;
+        margin-left: 500px;
+        font-family: 'Nunito', sans-serif;
+        color: #c8e7f9;
     }
-    
+
     .name {
-        font-size: 1.2em;
-        margin-right: 100px;
+        font-size: 1.5em;
+        font-weight: 800;
+        margin-right: 200px;
+        font-family: 'Nunito', sans-serif;
+        color: #93d8ff;
     }
-    
+
     .scroller {
-        font-size: 3em;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: 'Nunito', sans-serif;
+        color: #B3EFB2;
     }
-    
-    .carousel-container {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .logo {
-        width: 50px;
-        height: 50px;
-        margin-left: 25px;
-    }
-    
-    .name-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 40%;
-        height: 80%;
-        margin-left: 30%;
-    }
-    
+
     .text-container {
         background-color: #b3efb214;
         border-radius: 30em;
-        width: 80%;
+        width: 100%;
         height: 60%;
         position: relative;
         margin-top: 100px;
-        margin-left: 100px;
-        padding-right: 20em;
+        margin-left: 0px;
+        padding-right: 0em;
     }
-    
+
     .subheader {
-        margin-top: 6em;
+        margin-top: 1em;
         background-color: #b3efb21c;
         border-radius: 30em;
         position: fixed;
-        width: 60%;
+        width: 100%;
         height: 100px;
-        margin-left: 200px;
-        padding-left: 10em;
+        margin-left: 0px;
+        padding-left: 2em;
         padding-bottom: 2em;
     }
-    
+
     .subheader-text {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: 'Nunito', sans-serif;
+        color: #c8e7f9;
+    }
+
+    .questions {
         font-size: 1.5em;
         font-weight: 600;
         font-family: 'Nunito', sans-serif;
         color: #c8e7f9;
     }
-    
-    .questions {
-        font-size: 1em;
-        font-weight: 600;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
-    }
-    
+
     .contact {
-        font-size: 1.2em;
+        font-size: 1.6em;
         font-weight: 700;
         font-family: 'Nunito', sans-serif;
         color: #B3EFB2;
         margin-left: 1.5em;
     }
-    
+
     .contact:hover {
         color: #140D4F;
         cursor: pointer;
