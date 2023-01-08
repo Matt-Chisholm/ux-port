@@ -72,19 +72,13 @@
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
   .nav-container {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
   }
-
   .button-48 {
-    width: 100%;
-    margin: 0;
-    padding: 1.2em 1.8em;
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
 }
 

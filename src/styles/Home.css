@@ -115,199 +115,69 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
     .name-h1 {
         font-size: 3em;
-        font-weight: 600;
-        margin-left: 500px;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
+        margin-top: 75px;
+        margin-right: 150px;
     }
 
     .name {
-        font-size: 1.5em;
-        font-weight: 800;
-        margin-right: 200px;
-        font-family: 'Nunito', sans-serif;
-        color: #93d8ff;
+        font-size: 1em;
+        margin-right: 150px;
     }
 
     .scroller {
         font-size: 1.5em;
-        font-weight: 100;
-        font-family: 'Nunito', sans-serif;
-        color: #B3EFB2;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        margin-left: 50px;
+    }
+
+    .name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80%;
     }
 
     .text-container {
         background-color: #b3efb214;
         border-radius: 30em;
-        width: 100%;
+        width: 60%;
         height: 60%;
         position: relative;
         margin-top: 100px;
-        margin-left: 0px;
-        padding-right: 0em;
+        margin-left: 300px;
+        padding-right: 20em;
     }
 
     .subheader {
-        margin-top: 1em;
+        margin-top: 6em;
         background-color: #b3efb21c;
         border-radius: 30em;
         position: fixed;
-        width: 100%;
+        width: 40%;
         height: 100px;
-        margin-left: 0px;
-        padding-left: 2em;
+        margin-left: 600px;
+        padding-left: 10em;
         padding-bottom: 2em;
     }
 
     .subheader-text {
-        font-size: 1.2em;
-        font-weight: 600;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
+        font-size: 1.5em;
     }
 
     .questions {
-        font-size: 1.5em;
-        font-weight: 600;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
-    }
-
-    .contact {
-        font-size: 1.6em;
-        font-weight: 700;
-        font-family: 'Nunito', sans-serif;
-        color: #B3EFB2;
-        margin-left: 1.5em;
-    }
-
-    .contact:hover {
-        color: #140D4F;
-        cursor: pointer;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .name-h1 {
-        font-size: 3em;
-        font-weight: 600;
-        margin-left: 12em;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
-    }
-
-    .name {
-        font-size: 1.5em;
-        font-weight: 800;
-        font-family: 'Nunito', sans-serif;
-        color: #93d8ff;
-    }
-
-    .scroller {
         font-size: 1em;
-        font-weight: 100;
-        font-family: 'Nunito', sans-serif;
-        color: #B3EFB2;
-    }
-
-    .text-container {
-        background-color: #b3efb214;
-        border-radius: 30em;
-        width: 100%;
-        height: 60%;
-        position: relative;
-        margin-left: 0px;
-        padding-right: 0em;
-    }
-
-    .subheader {
-        margin-top: 1em;
-        background-color: #b3efb21c;
-        border-radius: 30em;
-        position: fixed;
-        width: 100%;
-        height: 100px;
-        margin-left: 0px;
-        padding-left: 2em;
-        padding-bottom: 2em;
-    }
-
-    .subheader-text {
-        font-size: 1.2em;
-        font-weight: 600;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
-    }
-
-    .questions {
-        font-size: 1.5em;
-        font-weight: 600;
-        font-family: 'Nunito', sans-serif;
-        color: #c8e7f9;
     }
 
     .contact {
-        font-size: 1.6em;
-        font-weight: 700;
-        font-family: 'Nunito', sans-serif;
-        color: #B3EFB2;
-        margin-left: 1.5em;
-    }
-
-    .contact:hover {
-        color: #140D4F;
-        cursor: pointer;
-    }
-}
-
-@media only screen and (max-width: 460px) {
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: #0D5C63;
-  }
-
-  .name-h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-    margin-top: 50px;
-    font-family: 'Nunito', sans-serif;
-    color: #c8e7f9;
-  }
-
-  .name {
-    font-size: 1em;
-    font-weight: 800;
-    margin-right: 100px;
-    font-family: 'Nunito', sans-serif;
-    color: #93d8ff;
-  }
-
-  .scroller {
-    font-size: 1.5em;
-    font-weight: 100;
-    font-family: 'Nunito', sans-serif;
-    color: #B3EFB2;
-    display: none;
-  }
-
-    .subheader-text {
-        margin-top: 1em;
-        background-color: #b3efb21c;
-        border-radius: 30em;
-        position: fixed;
-        width: 50vw;
         font-size: 1.2em;
-    }
-
-    .questions {
-        display: none;
     }
 }

@@ -14,31 +14,31 @@ export default function Projects() {
             alt='Tracks App Demo'
             className='project-image'
           />
-          <p className='project-description'>
-            A mobile app for users to track their paths when on hikes, bikerides
-            or roadtrips. The app is built with React Native, Expo CLI, Axios
-            and a MongoDB database.
-          </p>
           <a
             href='https://github.com/Matt-Chisholm/Track-App'
             target='_blank'
             rel='noopener noreferrer'>
             <button className='project-button'>Github</button>
           </a>
+          <p className='project-description'>
+            A mobile app for users to track their paths when on hikes, bikerides
+            or roadtrips. The app is built with React Native, Expo CLI, Axios
+            and a MongoDB database.
+          </p>
         </div>
         <div className='chatbot project'>
           <h2 className='project-title'>React Chatbot</h2>
           <img src={Chat} alt='Chatbot Pic' className='project-image' />
-          <p className='project-description'>
-            A fun chatbot, built with React, that can answer questions about
-            relevant coding topics. (Non-ML bot)
-          </p>
           <a
             href='https://github.com/Matt-Chisholm/chatbot-react'
             target='_blank'
             rel='noopener noreferrer'>
             <button className='project-button'>Github</button>
           </a>
+          <p className='project-description'>
+            A fun chatbot, built with React, that can answer questions about
+            relevant coding topics. (Non-ML bot)
+          </p>
         </div>
         <div className='project'>
           <h2 className='project-title'>Paw-Five</h2>
@@ -48,18 +48,18 @@ export default function Projects() {
             Demo'
             className='project-image'
           />
-          <p className='project-description'>
-            PAWFIVE is a specialized training app for dogs, supported by their
-            owners, to track their skill progressions and sessions, while aided
-            by voice recognition features. The app is built with React, Express,
-            Bootstrap, Axios and a voice recognition API called Wit.ai.
-          </p>
           <a
             href='https://github.com/Matt-Chisholm/Paw-Five'
             target='_blank'
             rel='noopener noreferrer'>
             <button className='project-button'>Github</button>
           </a>
+          <p className='project-description'>
+            PAWFIVE is a specialized training app for dogs, supported by their
+            owners, to track their skill progressions and sessions, while aided
+            by voice recognition features. The app is built with React, Express,
+            Bootstrap, Axios and a voice recognition API called Wit.ai.
+          </p>
         </div>
       </div>
     </div>
