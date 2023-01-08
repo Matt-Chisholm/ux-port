@@ -136,3 +136,82 @@
     border-radius: 20em;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 4em;
+    margin-right: 12em;
+    margin-bottom: 3em;
+  }
+  .project {
+    width: 80%;
+    height: 100%;
+    border-radius: 20em;
+    opacity: 55%;
+  }
+  .project-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    opacity: 100%;
+  }
+  .project-description {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 1.8em;
+  }
+  .project-button {
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 3em;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+  }
+  .project-image {
+    width: 100px;
+    height: 200px;
+    border-radius: 20em;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10em 8em 0 0;
+  }
+  .project {
+    width: 100%;
+    height: 100%;
+    opacity: 55%;
+    margin-top: 10em;
+  }
+  .chatbot {
+    display: none;
+  }
+  .project-title {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    opacity: 100%;
+  }
+  .project-description {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 1.8em;
+  }
+  .project-button {
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 3em;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+  }
+  .project-image {
+    width: 100px;
+    height: 200px;
+    border-radius: 20em;
+  }
+}

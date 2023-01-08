@@ -42,12 +42,14 @@
   font-size: 2.25em;
   font-weight: 100;
   font-family: 'Nunito', sans-serif;
+  text-overflow: ellipsis;
   color: #B3EFB2;
 }
 
 .carousel-container {
     display: flex;
     flex-direction: row;
+    width: 20em;
 }
 
 .logo {
@@ -166,6 +168,137 @@
         height: 100px;
         margin-left: 600px;
         padding-left: 10em;
+        padding-bottom: 2em;
+    }
+
+    .subheader-text {
+        font-size: 1.5em;
+    }
+
+    .questions {
+        font-size: 1em;
+    }
+
+    .contact {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .name-h1 {
+        font-size: 2.5em;
+        margin-top: 75px;
+        margin-left: 150px;
+    }
+
+    .name {
+        font-size: 1em;
+        margin-right: 150px;
+    }
+
+    .scroller {
+        font-size: 1.5em;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        margin-left: 50px;
+    }
+
+    .name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+    }
+
+    .text-container {
+        background-color: #b3efb214;
+        border-radius: 30em;
+        width: 60%;
+        height: 60%;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 300px;
+        padding-right: 20em;
+    }
+
+    .subheader {
+        margin: 0;
+        margin-top: 4em;
+        background-color: #b3efb21c;
+        border-radius: 30em;
+        position: fixed;
+        width: 50%;
+        height: 100px;
+        padding-bottom: 2em;
+    }
+
+    .subheader-text {
+        font-size: 1.5em;
+    }
+
+    .questions {
+        font-size: 1em;
+    }
+
+    .contact {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .name-h1 {
+        font-size: 2em;
+        margin-top: 75px;
+        margin-left: 150px;
+    }
+
+    .name {
+        font-size: 1em;
+        margin-right: 150px;
+    }
+
+    .scroller {
+        font-size: 1.5em;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        margin-left: 50px;
+    }
+
+    .name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+    }
+
+    .text-container {
+        background-color: #b3efb214;
+        border-radius: 30em;
+        width: 60%;
+        height: 60%;
+        margin: 8em 0 0 25em;
+        position: relative;
+        padding-right: 20em;
+    }
+
+    .subheader {
+        margin: 0;
+        margin-top: 4em;
+        background-color: #b3efb21c;
+        border-radius: 30em;
+        position: fixed;
+        width: 50%;
+        height: 100px;
         padding-bottom: 2em;
     }
 
