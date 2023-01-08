@@ -37,6 +37,22 @@ export default function Contact() {
       <div className='container mt-5'>
         <div className='color-div'>
           <h1 className='mb-4'>Send me an Email</h1>
+          <p className='email'>
+            mathesonchisholm@hotmail.com <br />
+            (778)-587-2006
+          </p>
+          <a
+            href='https://www.linkedin.com/in/matt-chisholm10/'
+            target='_blank'
+            rel='noreferrer'>
+            <img src='https://img.icons8.com/color/48/null/linkedin-circled--v1.png' />
+          </a>
+          <a
+            href='https://github.com/Matt-Chisholm'
+            target='_blank'
+            rel='noreferrer'>
+            <img src='https://img.icons8.com/ios-glyphs/60/null/github.png' />
+          </a>
           <form onSubmit={onSubmit}>
             <div className='mb-3'>
               <label className='form-label' htmlFor='name'>
