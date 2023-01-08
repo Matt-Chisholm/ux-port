@@ -263,7 +263,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 460px) {
   .text-container {
     display: flex;
     flex-direction: column;
@@ -278,7 +278,6 @@
     font-size: 2.5em;
     font-weight: 600;
     margin-top: 50px;
-    margin-right: 100px;
     font-family: 'Nunito', sans-serif;
     color: #c8e7f9;
   }
@@ -296,5 +295,19 @@
     font-weight: 100;
     font-family: 'Nunito', sans-serif;
     color: #B3EFB2;
+    display: none;
   }
+
+    .subheader-text {
+        margin-top: 1em;
+        background-color: #b3efb21c;
+        border-radius: 30em;
+        position: fixed;
+        width: 50vw;
+        font-size: 1.2em;
+    }
+
+    .questions {
+        display: none;
+    }
 }

@@ -247,7 +247,7 @@
     height: 100%;
     border-radius: 10em;
     margin: 1em;
-    opacity: 55%;
+    opacity: 80%;
   }
 
   .project-title {
@@ -290,5 +290,8 @@
     width: 100px;
     height: 200px;
     border-radius: 10em;
+  }
+  .chatbot {
+    display: none;
   }
 }

@@ -26,7 +26,7 @@ export default function Projects() {
             <button className='project-button'>Github</button>
           </a>
         </div>
-        <div className='project'>
+        <div className='chatbot project'>
           <h2 className='project-title'>React Chatbot</h2>
           <img src={Chat} alt='Chatbot Pic' className='project-image' />
           <p className='project-description'>
