@@ -252,3 +252,41 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .about-h1 {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-top: 16em;
+        margin-right: 200px;
+        font-family: 'Nunito', sans-serif;
+        color: #c8e7f9;
+    }
+    
+    .about-p {
+        font-size: 1em;
+        line-height: 1.8em;
+        margin-right: 0;
+        font-weight: 530;
+        font-family: 'Nunito', sans-serif;
+        color: #B3EFB2;
+    }
+    .color-bg {
+        padding: 0;
+    }
+
+    .btn-container {
+        padding-bottom: 2em;
+    }
+
+    .about-container {
+        width: 80%;
+        height: 20%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .skills-container {
+        display: none;
+    }
+}
