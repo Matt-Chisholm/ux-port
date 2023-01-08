@@ -380,3 +380,11 @@ display: none;
         font-size: 1.2em;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .carousel-container {
+        margin-left: 0;
+        margin-right: 20em;
+        margin-top: 5em;
+    }
+}
