@@ -193,7 +193,7 @@
         padding-left: 200px;
         font-family: 'Nunito', sans-serif;
         color: #c8e7f9;
-        opacity: 0;
+        display: none;
     }
 
     .skills-p {
@@ -204,6 +204,16 @@
         font-family: 'Nunito', sans-serif;
         color: #B3EFB2;
         opacity: 0;
+        display: none;
+    }
+    .btn-container {
+        margin-left: 14em;
+        margin-bottom: 2em;
+        padding-bottom: 5em;
+        padding-top: 1em;
+    }
+    .github-btn {
+        font-size: 1.4em;
     }
 }
 
