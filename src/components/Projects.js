@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
-import Tetris from "../images/tetris.png";
+import Tetris from "../assets/tetris.png";
 
 export default function Projects() {
   return (
