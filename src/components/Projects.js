@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
-import Chat from "../assets/chatbot.jpg";
+import Tetris from "../images/tetris.png";
 
 export default function Projects() {
   return (
@@ -27,17 +27,17 @@ export default function Projects() {
           </p>
         </div>
         <div className='chatbot project'>
-          <h2 className='project-title'>React Chatbot</h2>
-          <img src={Chat} alt='Chatbot Pic' className='project-image' />
+          <h2 className='project-title'>React Tetris</h2>
+          <img src={Tetris} alt='Chatbot Pic' className='project-image' />
           <a
-            href='https://github.com/Matt-Chisholm/chatbot-react'
+            href='https://github.com/Matt-Chisholm/react-tetris'
             target='_blank'
             rel='noopener noreferrer'>
             <button className='project-button'>Github</button>
           </a>
           <p className='project-description'>
-            A fun chatbot, built with React, that can answer questions about
-            relevant coding topics. (Non-ML bot)
+            A working tetris game in the browser built with React, custom hooks
+            and Styled Components.
           </p>
         </div>
         <div className='project'>
