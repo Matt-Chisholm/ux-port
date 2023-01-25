@@ -4,6 +4,8 @@
   -moz-animation: fadeIn 2.625s;
   -o-animation: fadeIn 2.625s;
   -ms-animation: fadeIn 2.625s;
+  height: 20vh;
+  width: 20vw;
 }
 
 @keyframes fadeIn {

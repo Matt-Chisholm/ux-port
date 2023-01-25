@@ -100,7 +100,13 @@
 
 @media screen and (max-height: 780px) {
   .projects-container {
-    height: 70%;
+    height: 30vh;
+    width: 70vw;
+    margin-top: 12em;
+  }
+
+  .header {
+    display: none;
   }
 }
 

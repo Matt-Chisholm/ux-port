@@ -3,14 +3,16 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    width: 100vw;
+    height: 60%;
 }
 
 .main-card {
-    width: 80%;
-    height: 80vh;
-    margin: 20px auto;
+    width: 60vw;
+    height: 40vh;
+    margin: 1em auto;
     margin-top: 5vh;
-    padding: 20px;
+    padding: 0em;
 }
 
 #tsparticles {
