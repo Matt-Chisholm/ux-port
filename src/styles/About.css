@@ -123,6 +123,14 @@
     color: #B3EFB2;
 }
 
+@media screen and (max-height: 780px) {
+    .about-container {
+        height: 40%;
+        margin-left: 25%;
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .about-h1 {
         font-size: 2.5em;

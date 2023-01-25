@@ -98,6 +98,12 @@
   border-radius: 20em;
 }
 
+@media screen and (max-height: 780px) {
+  .projects-container {
+    height: 70%;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .header {
     font-size: 2.25em;
