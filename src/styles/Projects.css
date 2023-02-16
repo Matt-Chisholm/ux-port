@@ -7,7 +7,7 @@
   height: 85%;
   background-color: #b3efb214;
   border-radius: 20em;
-  margin-top: 4em;
+  margin-top: 12em;
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
@@ -28,6 +28,7 @@
     margin-top: 2em;
     margin-right: 12em;
     margin-bottom: 1em;
+    display: none;
 }
 
 .projects {
